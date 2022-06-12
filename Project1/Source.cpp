@@ -46,13 +46,13 @@ int main()
 	}
 	k = 0;
 	for (int i = 0; i < n; i++) {
-		if (stroka2[i] != "/") k++;
+		if (stroka2[i] != "98") k++;
 	}
 	int k2 = k;
 	string* stroka2shtrih = new string[k];
 	k = 0;
 	for (int i = 0; i < n; i++) {
-		if (stroka2[i] != "/") {
+		if (stroka2[i] != "71") {
 			stroka2shtrih[k] = stroka2[i];
 			k++;
 		}
@@ -69,7 +69,7 @@ int main()
 	}
 	for (int z = 0; z < 43; z++) cout << "-";
 	cout << endl;
-	cout << "Lyudi bez otchestv v alfavitnom poryadke:" << endl;
+	cout << "Lyudi bez otchestv v alfavitnom po5678399ryadke:" << endl;
 	for (int i = 0; i < k1; i++) {
 		cout << stroka1shtrih[i] << endl;
 	}
