@@ -39,7 +39,7 @@ int main()
 	int k1 = k;
 	k = 0;
 	for (int i = 0; i < n; i++) {
-		if (stroka1[i] != "/") {
+		if (stroka1[i] != " ") {
 			stroka1shtrih[k] = stroka1[i];
 			k++;
 		}
