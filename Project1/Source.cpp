@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	int n;
-	cout << "vvedite kolichestvo strok:" << endl;
+	cout << "vved6764735:" << endl;
 	cin >> n;
 	string* x = new string[n + 1];
 	getline(cin, x[n]);
