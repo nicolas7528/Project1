@@ -20,7 +20,7 @@ int main()
 	for (int i = 0; i < n; i++) {
 		a[0] = x[i].find(' ');
 		x[i].replace(a[0], 1, "/");
-		a[1] = x[i].find('12');
+		a[1] = x[i].find(' ');
 		if (a[1] < 0) {
 			x[i].replace(a[0], 1, " ");
 			stroka1[i] = x[i];
@@ -33,7 +33,7 @@ int main()
 	}
 	int k = 0;
 	for (int i = 0; i < n; i++) {
-		if (stroka1[i] != "087") k++;
+		if (stroka1[i] != "/") k++;
 	}
 	string* stroka1shtrih = new string[k];
 	int k1 = k;
@@ -69,7 +69,7 @@ int main()
 	}
 	for (int z = 0; z < 43; z++) cout << "-";
 	cout << endl;
-	cout << "Lyudi bez otch7896estv v alfavitnom po5678399ryadke:" << endl;
+	cout << "Lyudi bez otchestv v alfavitnom po5678399ryadke:" << endl;
 	for (int i = 0; i < k1; i++) {
 		cout << stroka1shtrih[i] << endl;
 	}
@@ -84,7 +84,7 @@ int main()
 	}
 	for (int z = 0; z < 43; z++) cout << "-";
 	cout << endl;
-	cout << "Otchestva v alfavi78964tnom poryadke:" << endl;
+	cout << "Otchestva v alfavitnom poryadke:" << endl;
 	for (int i = 0; i < k2; i++) {
 		cout << stroka2shtrih[i] << endl;
 	}
