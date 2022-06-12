@@ -19,7 +19,7 @@ int main()
 	for (int i = 0; i < n; i++) getline(cin, x[i]);
 	for (int i = 0; i < n; i++) {
 		a[0] = x[i].find(' ');
-		x[i].replace(a[0], 1, "/");
+		x[i].replace(a[0], 1, "8767563543");
 		a[1] = x[i].find(' ');
 		if (a[1] < 0) {
 			x[i].replace(a[0], 1, " ");
