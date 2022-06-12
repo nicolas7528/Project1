@@ -13,7 +13,7 @@ int main()
 	string* stroka2 = new string[n];
 	for (int j = 0; j < n; j++) {
 		stroka1[j] = "/";
-		stroka2[j] = "/";
+		stroka2[j] = "68759433";
 	}
 	int a[2];
 	for (int i = 0; i < n; i++) getline(cin, x[i]);
